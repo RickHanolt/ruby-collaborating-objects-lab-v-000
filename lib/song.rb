@@ -23,7 +23,6 @@ class Song
     new_song_artist = parsed_file[0]
     new_song_name = parsed_file[1]
     new_song = Song.new(new_song_name)
-    binding.pry
     new_song.artist = new_song_artist
   end
 
