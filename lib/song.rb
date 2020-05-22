@@ -20,6 +20,9 @@ class Song
 
   def self.new_by_filename(file)
     parsed_file = file.split(" - ")
+    name = parsed_file[0]
+    artist = parsed_file[1]
+    new_song = Song.new(name)
     Song.new.name = parsed_file[0]
     Song.new.artist = parsed_file[1]
   end
