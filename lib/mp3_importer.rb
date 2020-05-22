@@ -1,4 +1,4 @@
-require 'pry  binding.pry'
+require 'pry'
 
 class MP3Importer
   attr_accessor :path
