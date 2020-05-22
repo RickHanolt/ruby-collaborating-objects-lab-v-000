@@ -12,7 +12,7 @@ class MP3Importer
   end
 
   def import
-    @path << Dir.glob("#{path}/*.mp3")
+    filename =  Dir.glob("#{path}/*.mp3")
     binding.pry
   end
 
