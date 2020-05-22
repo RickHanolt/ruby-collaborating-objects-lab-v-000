@@ -6,7 +6,7 @@ class MP3Importer
   end
 
   def files
-    @path << Dir[MP3Importer.new('./spec/fixtures').import]
+
   end
 
   def import
