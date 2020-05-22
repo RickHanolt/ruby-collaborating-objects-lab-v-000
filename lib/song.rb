@@ -24,8 +24,6 @@ class Song
     artist = parsed_file[1]
     new_song = Song.new(name)
     new_song.artist = artist
-    Song.new.name = parsed_file[0]
-    Song.new.artist = parsed_file[1]
   end
 
   def artist_name=(name)
