@@ -12,7 +12,7 @@ class MP3Importer
   end
 
   def import
-    filename = Dir.glob("#{path}/*.mp3")
+
   end
 
 end
