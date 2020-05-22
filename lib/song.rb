@@ -25,6 +25,7 @@ class Song
   end
 
   def artist_name=(name)
+    binding.pry
     if Artist.all.include?(name)
       self.artist = name
     else
