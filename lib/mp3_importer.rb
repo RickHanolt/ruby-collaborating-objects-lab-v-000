@@ -12,7 +12,7 @@ class MP3Importer
   end
 
   def import
-    filenames = Dir["./spec/fixtures/mp3s"]
+    filenames = Dir.glob("#{path}/*.mp3")
     binding.pry
   end
 
