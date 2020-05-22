@@ -1,4 +1,4 @@
-require 'pry'
+require 'pry  binding.pry'
 
 class MP3Importer
   attr_accessor :path
@@ -13,7 +13,7 @@ class MP3Importer
 
   def import
     filenames = Dir["./spec/fixtures/mp3s"]
-
+    binding.pry
   end
 
 end
