@@ -31,7 +31,6 @@ class Song
       Artist.new(name)
       self.artist = name
     end
-    binding.pry
   end
 
 end
