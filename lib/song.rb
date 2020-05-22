@@ -25,13 +25,7 @@ class Song
   end
 
   def artist_name=(name)
-    binding.pry
-    if Artist.all.include?(name)
-      self.artist = name
-    else
-      Artist.new(name)
-      self.artist = name
-    end
+    Artist.find_or_create_by_name(name)
   end
 
 end
