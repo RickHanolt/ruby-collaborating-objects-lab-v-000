@@ -9,7 +9,7 @@ class MP3Importer
 
   def files
     file_name = Dir.glob("#{path}/*.mp3")
-    @path = file_name.collect{|file| (file.split("/"))[-1]}
+    file_name.collect{|file| (file.split("/"))[-1]}
   end
 
   def import
