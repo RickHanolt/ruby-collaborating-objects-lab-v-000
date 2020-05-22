@@ -8,12 +8,11 @@ class MP3Importer
   end
 
   def files
-
+    filename = Dir.glob("#{path}/*.mp3")
   end
 
   def import
-    filename =  Dir.glob("#{path}/*.mp3")
-    binding.pry
+    filename = Dir.glob("#{path}/*.mp3")
   end
 
 end
