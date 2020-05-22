@@ -10,7 +10,7 @@ class MP3Importer
   end
 
   def import
-
+    Dir["./spec/fixtures"]
   end
 
 end
