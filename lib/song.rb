@@ -22,7 +22,6 @@ class Song
     parsed_file = file.split(" - ")
     new_song_artist = parsed_file[0]
     new_song_name = parsed_file[1]
-    binding.pry
     new_song = Song.new(new_song_name)
     new_song.artist = artist
   end
